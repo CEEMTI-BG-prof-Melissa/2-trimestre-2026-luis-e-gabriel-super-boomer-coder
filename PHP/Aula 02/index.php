@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title> Aula 2 -  </title>
+        <title> Aula 2 - Variáveis </title>
     </head>
     <body>
         <?php
