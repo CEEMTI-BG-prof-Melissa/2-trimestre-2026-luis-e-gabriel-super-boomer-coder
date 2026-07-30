@@ -106,12 +106,12 @@ section h2 {
 .texto {
     display: inline-block;
     text-align: justify;
-    width: 80%;
+    width: 74vw;
 }
 .texto2 {
     padding-left: 22px;
     text-align: justify;
-    width: 94%;
+    width: 89vw;
 }
 
 #resumoimg {
