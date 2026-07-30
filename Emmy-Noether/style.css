@@ -106,28 +106,28 @@ section h2 {
 .texto {
     display: inline-block;
     text-align: justify;
-    width: 74vw;
+    width: 78vw;
 }
 .texto2 {
     padding-left: 22px;
     text-align: justify;
-    width: 89vw;
+    width: 90vw;
 }
 
 #resumoimg {
-    width: 200px;
+    width: 10vw;
     border: 1px solid black;
     display: inline-block;
 }
 
 #historiaimg {
-    width: 200px;
+    width: 10vw;
     border: 1px solid black;
     display: inline-block;
 }
 
 #contribuicoesimg {
-    width: 200px;
+    width: 10vw;
     border: 1px solid black;
     display: inline-block;
 }
