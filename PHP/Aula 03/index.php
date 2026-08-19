@@ -12,6 +12,7 @@
             $desc = 30;
             $parc = 2;
 
+            // exibindo Informação:
             echo "Valor total da compra: " .($preco * $quant);
             echo "<br> Valor após o desconto: " .(($preco * $quant) - $desc);
             echo "<br> valor de cada parcela: " .((($preco * $quant) - $desc) / $parc);
