@@ -17,6 +17,7 @@ body {
 /* Cria um gradiente de fundo e alinha o conteúdo ao centro */
 header {
     height: 200px;
+    width: 100vw;
     background: #8A8A8A;
     background: radial-gradient(circle, rgba(31, 31, 31, 1) 70%, rgba(138, 138, 138, 1) 100%);
     border-bottom: 1px solid black;
