@@ -12,13 +12,18 @@
             echo("Pontuação: $nota.<br>"); //Pontuação inicial.
 
             $nota += 10; //Acrescenta 10 pontos a nota.
+            echo("<br>Pontuação: $nota.<br>");
             $nota -= 5; //Retira 5 pontos da nota.
+            echo("<br>Pontuação: $nota.<br>");
             $nota *= 2; //Dobra a pontuação.
+            echo("<br>Pontuação: $nota.<br>");
             $nota /= 2; //Divide a pontuação por 2.
+            echo("<br>Pontuação: $nota.<br>");
             $nota++; //Acrescenta mais 1 ponto.
+            echo("<br>Pontuação: $nota.<br>");
             $nota--; //Retira 1 ponto.
 
-            echo("<br><sub>Nova pontuação: $nota.</sub>"); //Pontuação final.
+            echo("<br>Nova pontuação: $nota."); //Pontuação final.
         ?>
     </body>
 </html>
