@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title> Verificação de Situação Escolar </title>
+    </head>
+    <body>
+        <h1> Verificação de Situação Escolar </h1>
+        <form action="/Luís&Gabriel.php" method="get">
+            <!-- Nome do Estudante -->
+            <label for="nome">
+                Nome do Estudande: <input type="text" name="nome" id="nome" required>
+            </label>
+            <br><br>
+            <!-- Nota 1 -->
+             <label for="nota1">
+                Nota do 1° Trimestre: <input type="number" name="nota1" id="nota1" required>
+             </label>
+             <br><br>
+             <!-- Nota 2 -->
+             <label for="nota2">
+                Nota do 2° Trimestre: <input type="number" name="nota2" id="nota2" required>
+             </label>
+             <br><br>
+             <!-- Nota 3 -->
+             <label for="nota3">
+                Nota do 3° Trimestre: <input type="number" name="nota3" id="nota3" required>
+             </label>
+             <br><br>
+             <!-- Faltas -->
+              <label for="faltas">
+                Quantidade de Faltas: <input type="number" name="faltas" id="faltas" required>
+              </label>
+              <br><br>
+              <!-- Enviar -->
+               <input type="submit" value="Enviar">
+              <!-- Limpar -->
+               <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>
